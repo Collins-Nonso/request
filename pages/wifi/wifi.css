@@ -1,0 +1,176 @@
+/*************************** Course Page *********************/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.wifislider {
+    top: 95px;
+    animation: courseimage 40s ease-in-out infinite;
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: inherit;
+}
+
+@keyframes courseimage {
+    0%, 100%{
+        background-image: url(../../images/e.jpg);
+    }
+     25%{
+        background-image: url(../../images/a.jpg);
+    }
+     50%{
+        background-image: url(../../images/c.jpg);
+    }
+     75%{
+        background-image: url(../../images/d.jpg);
+    }
+}
+
+.back-btn ul li {
+    display: block;
+    top: 50px;
+    background-color: #004000;
+    padding: 0;
+    font-family: Calibri;
+    font-size: 22px;
+    float: left;
+    position: fixed;
+    text-decoration: none;
+}
+
+.back-btn ul li a {
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.back-btn ul li a:hover {
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    display: block;
+}
+
+.back-btn ul li a:active {
+    color: #fff;
+    background-color: #004000;
+    text-decoration: none;
+    display: block;
+}
+
+.mainwifiform {
+	width: 700px;
+	margin: 0px auto;
+	border-radius: 10px;
+	border: 5px solid #004000;
+	border-left: 40px solid #004000;
+	box-shadow: 1px 2px 10px #555;
+}
+
+.wifiinfo {
+	width: 100%;
+	background-color: #004000;
+	padding: 7px;
+	text-shadow: 1px 1px 1px #222;
+	color: #fff;
+	font-size: 20px;
+}
+
+.wifi-box {
+    height: auto;
+	padding: 20px;
+	background-color: #eee;
+}
+
+label {
+	color: #004000;
+	font-size: 14px;
+}
+
+.wifiinput, .wifi-msg-box {
+	width: 100%;
+	padding: 10px;
+	margin-top: 4px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	border: 2px solid #004000;
+	font-weight: lighter;
+	color: #222;
+	border-right: 15px solid #004000;
+	border-left: 15px solid #004000;
+	resize: none;
+}
+
+.wifi-msg-box {
+	height: 80px;
+}
+
+.wifiinput:focus,.wifi-msg-box:focus {
+	outline: none;
+	border: 2px solid #fff;
+	border-right: 15px solid #004000;
+	border-left: 15px solid #004000;
+}
+
+.wifi-sub-btn {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 5px;
+	border: none;
+	background: linear-gradient(#004000,#004000);
+	cursor: pointer;
+	color: #fff;
+	font-size: 20px;
+	text-shadow: 1px 1px 1px #444;
+}
+
+.wifi-sub-btn:hover {
+	background: linear-gradient(#004000,#004000);
+	opacity: 0.8;
+	transition: all ease-out 0.2s;
+}
+
+.wifi-sub-btn:focus {
+	outline: none;
+}
+
+@media(max-width: 720px) {
+	.mainwifiform {
+		width: 90%;
+	}
+}
+	
+.copy {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+@media(max-width: 600px) {
+	.topbtn {
+		width: 0px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

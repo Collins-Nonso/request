@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8" lang="en">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>UNN Request Form | Email Request</title>
+	<link rel="shortcut icon" href="../../../icon/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="../../../css/main.css">
+	<link rel="stylesheet" type="text/css" href="../new/undergraduate.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>  
+</head>
+<body>
+
+<!---------------------------- Main Top Navigation -------------------------->
+  
+<nav class="topnav">
+    <div class="logo">
+        <a href="../../../index.html"><img src="../../../images/logo1.png"></a>
+    </div>
+      
+    <div class="topbtn">
+        <ul>
+            <li><a href="http://unn.edu.ng">Website</a></li>
+            <li><a href="https://unnportal.unn.edu.ng">Portal</a></li>
+            <li><a href="../../../index.html">Home</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!---------------------- Main Background Slider Image --------------------->
+
+<br />
+
+
+<div class="emailslider"> 
+
+<!---------------------- Main Back Button ------------------------>
+<div class="back-btn">
+<ul>
+    <li><a href="../new/email.html">Back</a></li>
+</ul>
+</div>
+
+<br />
+<br />
+<br />
+
+<!---------------------------- Main Undergraduate Form ---------------------->
+
+<div class="undergraduateemailform">
+		<div class="undergemailinfo">UNDERGRADUATE/DE | Fill-Up this form correctly & Submit</div>
+		<form action="mail_handler.php" method="post" name="form" class="email-box">
+			<label for="name">First Name</label><br>
+			<input type="text" name="name" class="emailinput" placeholder="Enter Your First Name" required><br>
+			<label for="name">Surname</label><br>
+			<input type="text" name="name" class="emailinput" placeholder="Enter Your Family Name e.g. Ugwuanyi" required><br>
+			<label for="email">Email</label><br>
+			<input type="email" name="email" class="emailinput" placeholder="Enter Your Private Email e.g. adam@gmail.com" required><br>
+			<label for="matricnumber">Matric Number</label><br>
+			<input type="matricnumber" name="matricnumb" class="emailinput" placeholder="Enter Your Matric Number e.g. 2010/123456" required><br>
+			<label for="faculty">Faculty</label><br>
+			<input type="faculty" name="faculty" class="emailinput" placeholder="Enter Your Faculty e.g. Faculty of Law" required><br>
+			<label for="department">Department</label><br>
+			<input type="department" name="department" class="emailinput" placeholder="Enter Your Department e.g. Property Law" required><br>
+			<label for="phone">Phone</label><br>
+			<input type="tel" name="phone" class="emailinput" placeholder="Enter Your Phone e.g. 08000000000" required><br>
+			<label for="message">Message</label><br>
+			<textarea name="msg" class="email-msg-box" placeholder="Enter Your Message Here..." required></textarea><br>
+			<input type="submit" name="submit" value="Send" class="email-sub-btn">
+		</form>
+	</div>
+	
+<br />
+<br />
+<br />
+
+</div>
+
+
+
+<footer>
+    <div class="copy">
+        <p class="copyright"> Copyright &copy; <a href="https://github.com/Collins-Nonso" target="_blank">Collins Nonso</a> <span id="year"></span></p> 
+    </div>
+</footer>
+
+<script type="text/javascript">
+	document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+</body>
+</html>

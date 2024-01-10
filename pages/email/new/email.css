@@ -1,0 +1,125 @@
+/**************** Email Program Select Option Page *******************/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.emailslider {
+    top: 95px;
+    animation: emailimage 40s ease-in-out infinite;
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: inherit;
+}
+
+@keyframes emailimage {
+    0%, 100%{
+        background-image: url(../../../images/e.jpg);
+    }
+     25%{
+        background-image: url(../../../images/a.jpg);
+    }
+     50%{
+        background-image: url(../../../images/c.jpg);
+    }
+     75%{
+        background-image: url(../../../images/d.jpg);
+    }
+}
+
+.back-btn ul li {
+    display: block;
+    top: 50px;
+    background-color: #004000;
+    padding: 0;
+    font-family: Calibri;
+    font-size: 22px;
+    float: left;
+    position: fixed;
+    text-decoration: none;
+}
+
+.back-btn ul li a {
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.back-btn ul li a:hover {
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    display: block;
+}
+
+.back-btn ul li a:active {
+    color: #fff;
+    background-color: #004000;
+    text-decoration: none;
+    display: block;
+}
+
+.programoption {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    font-family: Caliobri;
+    height: 100px;
+    width: 500px;
+    background-color: #f5fffa;
+    color: #000;
+    box-shadow: 0.5px 5px rgba(0,0,0,.5);
+    -webkit-appearance: button;
+    outline: none;
+}
+
+.programoption:hover {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.copy {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+@media(max-width: 100vh) {
+	.programoption {
+		width: 90%;
+	}
+}
+	
+@media(max-width: 600px) {
+	.topbtn {
+		width: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

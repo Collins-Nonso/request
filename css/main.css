@@ -1,0 +1,185 @@
+/************************** Main Home Page **************************/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+nav {
+    padding: 5px;
+    width: 100%;
+    height: 50px;
+    background-color: #f5fffa;
+    position: fixed;
+}
+
+.topnav .logo {
+    float: left;
+}
+
+.topnav .logo img {
+    width: 320px;
+    height: 40px;
+}
+
+.topnav .topbtn ul {
+    float: right;
+    padding-right: 1px;
+    font-family: Calibri;
+    font-size: 20px;
+}
+
+.topnav .topbtn ul li {
+    line-height: normal;
+    float: right;
+    margin: 2px;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-flex;
+    background-color: #004000;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.topbtn ul li a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    transition: 0.001s all;
+}
+
+.topbtn ul li:hover {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.09s ease;
+}
+
+.topbtn ul li a:hover {
+    background-color: #000;
+    color: #fff;
+    padding: 0px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.topbtn ul li:active {
+    color: #fff;
+    background-color: #004000;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.topbtn ul li a:active {
+    color: #fff;
+    background-color: #004000;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.hslider {
+    position: inherit;
+    width: 100%;
+    height: 500px;
+    animation: homeslider 25s ease-in-out infinite;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@keyframes homeslider {
+    0%, 100%{
+        background-image: url(../images/e.jpg);
+    }
+     25%{
+        background-image: url(../images/a.jpg);
+    }
+     50%{
+        background-image: url(../images/c.jpg);
+    }
+     75%{
+        background-image: url(../images/d.jpg);
+    }
+}
+
+.hometext {
+    top: inherit;
+    background-color: #004000;
+    text-align: center;
+    color: #fff;
+    font-family: Ebrima;
+    font-size: 28px;
+}
+
+.optiontitle {
+    text-align: center;
+    background-color: #004000;
+    color: #fff;
+    font-size: 24px;
+}
+
+.homeform {
+    align-self: center;
+    text-align: center;
+}
+
+.optionbox {
+    text-align: center;
+    height: 70px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: #f5fffa;
+    color: #000;
+    font-size: 24px;
+    appearance: none;
+    box-shadow: 0.5px 1px rgba(0,0,0,.5);
+    -webkit-appearance: button;
+    outline: none;
+}
+
+.optionbox:hover {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.copyright {
+    line-height:50px;
+    background-color: #0d0d0d;
+    text-align: center;
+    color: #fff;
+    position: inherit;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #fff;
+    font-style: italic;
+}
+
+.copyright a:hover {
+    text-decoration: none;
+    color: rgb(0,255,0,0.8);
+    font-style: italic;
+}
+
+.copy {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+@media(max-width: 100vh) {
+	.optionbox {
+		width: 100%;
+	}
+}

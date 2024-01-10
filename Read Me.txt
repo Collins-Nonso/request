@@ -1,0 +1,13 @@
+University of Nigeria Nsukka
+
+Author: Collins Nonso
+Version: 1819.1.0
+Year: 2018
+Country: Nigeria
+City: Nsukka
+
+1. Internship project first designed in 2018/2019 at the University of Nigeria Nsukka ICT Center.
+2. The project aims at accepting staff/students complaints in a form with all the duly required informations to treat.
+3. Designed only with HTML and CSS
+
+2018 All Rights Researved.
